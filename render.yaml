@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: web-preview-lab-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://venanciobautista.com
+      - key: MAX_CONCURRENT
+        value: 2
+      - key: NAV_TIMEOUT_MS
+        value: 20000
