@@ -1,6 +1,6 @@
 {
-  "name": "web-preview-lab-api",
-  "version": "1.0.0",
+  "name": "responsive-qa-lab-api",
+  "version": "1.1.0",
   "private": true,
   "type": "commonjs",
   "scripts": {
