@@ -1,13 +1,18 @@
 {
-  "name": "web-preview-backend",
+  "name": "web-preview-lab-api",
   "version": "1.0.0",
-  "main": "app.js",
+  "private": true,
+  "type": "commonjs",
   "scripts": {
     "start": "node app.js"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "playwright": "^1.55.0"
+    "cors": "2.8.5",
+    "express": "5.1.0",
+    "playwright": "1.55.0"
   }
+}
 }
